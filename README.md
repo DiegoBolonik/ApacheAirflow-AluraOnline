@@ -15,4 +15,4 @@ $ export AIRFLOW_HOME=$(pwd)/airflow
 $ export BEARER_TOKEN=XYZ
 $ db init
 $ airflow initdb
-$ airflow scheduler'
+$ airflow scheduler
