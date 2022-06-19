@@ -14,4 +14,3 @@ $ export BEARER_TOKEN=XYZ
 $ db init
 $ airflow initdb
 $ airflow scheduler'
-'''
