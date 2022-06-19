@@ -20,7 +20,7 @@ Pensando no data lake como um lago que purifica a água para ser consumida por a
     
 Três Vs:
     <p  aliggn="center">
-      <img alt="3v" src="data_lake_3vs.png">
+      <img alt="3v" src="data_lake_3vs.png" width=250>
 
 
 Entrando na pasta do projeto e inciando a máquina virtual
