@@ -12,13 +12,15 @@ A arquitetura em medalhas, do inglês medallion, permite acesso flexível e proc
 
 As camadas Bronze e Silver agem como um ODS, ou seja, um banco de dados operacional, cujas tabelas permitem modificações ágeis para serem reproduzidas nas tabelas transformadas. Para análises profundas, se utiliza a camada Gold, ou ouro, e o usuário possui o poder de extrair conhecimento e formular pesquisas.
   
-Dados na camada Gold
+Dados na camada Gold:
   <p align="center">
   <img alt="Gold" src="Screenshot_20220619_113300.png">
 
 Pensando no data lake como um lago que purifica a água para ser consumida por analistas em suas pesquisas de BI e cientistas de dados em seus algoritmos de Machine Learning, as tabelas na etapa Bronze recebem água constantemente e em grande quantidade, e então fica “suja”, com diferentes procedências. Esta água flui constantemente para a etapa Silver, juntando com águas que vieram de diferentes locais e começando a ser purificada, até que, como em um rio de águas cristalinas, é encontrada na camada Gold pronta para consumo.
-    <p align="center" width=250>
-      
+    
+Três Vs:
+    <p  aliggn="center">
+      <img alt="3v" src="data_lake_3vs.png">
 
 
 Entrando na pasta do projeto e inciando a máquina virtual
