@@ -23,9 +23,8 @@ Pensando no data lake como um lago que purifica a água para ser consumida por a
   <img alt="3v" src="data_lake_3vs.png" width=650>
 
 
-## Entrando na pasta do projeto e inciando a máquina virtual
+## inciando a máquina virtual
 ```bash
-$ cd datapipeline
 $ source .env/bin/activate
 ```
 ## Colocando as variáveis de ambiente
