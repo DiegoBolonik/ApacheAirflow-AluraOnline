@@ -31,6 +31,7 @@ $ source .env/bin/activate
 ```bash
 $ export AIRFLOW_HOME=$(pwd)/airflow
 $ export BEARER_TOKEN=XYZ
+```
 
 ## Comandos de inicialização:
 ```bash
