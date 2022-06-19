@@ -6,11 +6,12 @@ As camadas Bronze e Silver agem como um ODS, ou seja, um banco de dados operacio
 
 Pensando no data lake como um lago que purifica a água para ser consumida por analistas em suas pesquisas de BI e cientistas de dados em seus algoritmos de Machine Learning, as tabelas na etapa Bronze recebem água constantemente e em grande quantidade, e então fica “suja”, com diferentes procedências. Esta água flui constantemente para a etapa Silver, juntando com águas que vieram de diferentes locais e começando a ser purificada, até que, como em um rio de águas cristalinas, é encontrada na camada Gold pronta para consumo.
 
-
-'$ cd datapipeline
+```bash
+$ cd datapipeline
 $ source .env/bin/activate
 $ export AIRFLOW_HOME=$(pwd)/airflow
 $ export BEARER_TOKEN=XYZ
 $ db init
 $ airflow initdb
 $ airflow scheduler'
+'''
