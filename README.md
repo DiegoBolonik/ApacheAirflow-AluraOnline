@@ -1,4 +1,8 @@
-Fizemos a construção do data pipeline! Começamos com requisitos do projeto, em que deveríamos providenciar dados para o time de marketing e cientistas de dados referentes a dados do Twitter relacionados ao perfil da Alura Online. As ferramentas Apache que foram introduzidas neste curso, Airflow e Spark, são utilizadas na maioria das empresas ao redor do mundo.
+## Engenharia de dados: conhecendo Apache Airflow
+
+Objetivo: extrair dados diretamente da API do Twitter
+
+Fizemos a construção do data pipeline! Começamos com requisitos do projeto, em que deveríamos providenciar dados para o time de marketing e cientistas de dados referentes a dados do Twitter relacionados ao perfil da Alura Online. As ferramentas Apache que foram introduzidas neste curso, [Airflow]("https://airflow.apache.org/") e [Spark]("https://spark.apache.org/"), são utilizadas na maioria das empresas ao redor do mundo.
 
 A arquitetura em medalhas, do inglês medallion, permite acesso flexível e processamento de dados extensíveis. As tabelas na camada bronze são usadas para ingestão de dados e permitem acesso rápido, sem a necessidade de modelagem a uma única fonte de dados. Conforme os dados fluem para as tabelas na camada Silver, ou prata, eles se tornam mais refinados e otimizados para a inteligência de negócio, ou BI, e ciência de dados, através de transformações.
 
@@ -9,11 +13,17 @@ Pensando no data lake como um lago que purifica a água para ser consumida por a
   <img alt="Aiflow" src="airflow_caracteristics.png">
   <img alt="Gold" src="Screenshot_20220619_113300.png">
 
+Entrando na pasta do projeto e inciando a máquina virtual
 ```bash
 $ cd datapipeline
 $ source .env/bin/activate
+```
+Colocando as variáveis de ambiente
+```bash
 $ export AIRFLOW_HOME=$(pwd)/airflow
 $ export BEARER_TOKEN=XYZ
-$ db init
+
+Comandos de inicialização:
+```bash
 $ airflow initdb
 $ airflow scheduler
