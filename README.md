@@ -1,10 +1,10 @@
-## Engenharia de dados: conhecendo Apache Airflow
+<h1 align="center"> Engenharia de dados: conhecendo Apache Airflow </h1>
 
-Objetivo: extrair dados diretamente da API do Twitter
+`Objetivo: extrair dados diretamente da API do Twitter`
 
 Fizemos a construção do data pipeline! Começamos com requisitos do projeto, em que deveríamos providenciar dados para o time de marketing e cientistas de dados referentes a dados do Twitter relacionados ao perfil da Alura Online. As ferramentas Apache que foram introduzidas neste curso, [Airflow]("https://airflow.apache.org/") e [Spark]("https://spark.apache.org/"), são utilizadas na maioria das empresas ao redor do mundo.
 
-## Características do Airflow:
+Características do Airflow:
 <p align="center">
   <img alt="Aiflow" src="airflow_caracteristics.png">
 
