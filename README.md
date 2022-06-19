@@ -37,3 +37,4 @@ $ export BEARER_TOKEN=XYZ
 ```bash
 $ airflow initdb
 $ airflow scheduler
+$ Airflow webserver
