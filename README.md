@@ -28,7 +28,7 @@ Pensando no data lake como um lago que purifica a água para ser consumida por a
 $ mkdir datapipeline
 $ cd datapipeline
 $ git clone https://github.com/DiegoBolonik/ApacheAirflow-AluraOnline.git
-$ python -m venv env
+$ python -m venv .env
 ```
 extrair arquivo dentro do pasta datapipeline
 ## inciando a máquina virtual e instalando módulos
