@@ -23,14 +23,23 @@ Pensando no data lake como um lago que purifica a água para ser consumida por a
   <img alt="3v" src="data_lake_3vs.png" width=650>
 
 
-## inciando a máquina virtual
+## criando pasta do projeto e env
+```bash
+$ mkdir datapipeline
+$ cd datapipeline
+$ git clone https://github.com/DiegoBolonik/ApacheAirflow-AluraOnline.git
+$ python -m venv env
+```
+extrair arquivo dentro do pasta datapipeline
+## inciando a máquina virtual e instalando módulos
 ```bash
 $ source .env/bin/activate
+$ pip install -r requirements.txt
 ```
 ## Colocando as variáveis de ambiente
 ```bash
 $ export AIRFLOW_HOME=$(pwd)/airflow
-$ export BEARER_TOKEN=XYZ
+$ export BEARER_TOKEN=****
 ```
 
 ## Comandos de inicialização:
